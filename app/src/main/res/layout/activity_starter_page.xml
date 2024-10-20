@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E95322"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group1_icon"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="250dp"/>
+    <TextView
+        android:id="@+id/textView_stater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Lorem ipsum dolor sit amet"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#F5CB58"
+        android:layout_below="@+id/textView_stater"
+        android:layout_marginLeft="155dp"
+        android:text="Log In"
+        android:textColor="#E95322"/>
+    <Button
+        android:id="@+id/buttonstartup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#F3E9B5"
+        android:layout_below="@+id/buttonlogin"
+        android:layout_marginLeft="155dp"
+        android:text="Sign Up"
+        android:textColor="#E95322"/>
+
+
+</RelativeLayout>
